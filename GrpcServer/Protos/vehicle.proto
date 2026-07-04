@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+package fleetpulse.order;
+
+enum VehicleType {
+  UNKNOWN = 0;
+  VAN = 1;
+  TRUCK = 2;
+  MOTORBIKE = 3;
+}
+
+message Vehicle {
+  string vehicle_id = 1;
+  string plate_number = 2;
+  VehicleType vehicle_type = 3;
+  float capacity_kg = 4;
+  bool is_active = 5;
+}
+
+message RegisterVehicleRequest {
+  string plate_number = 1;
+  VehicleType vehicle_type = 2;
+  float capacity_kg = 3;
+}
+
+message VehicleReply {
+  Vehicle vehicle = 1;
+}
+
+message GetVehicleRequest {
+  string vehicle_id = 1;
+}
+
+service VehicleService {
+  rpc RegisterVehicle (RegisterVehicleRequest) returns (VehicleReply);
+  rpc GetVehicle (GetVehicleRequest) returns (VehicleReply);
+}
