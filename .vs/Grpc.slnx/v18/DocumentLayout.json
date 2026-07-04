@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ahmed Ragab\\source\\repos\\Grpc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|c:\\users\\ahmed ragab\\source\\repos\\grpc\\grpcserver\\protos\\vehicle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D15F8ADD-B82C-E458-0A5E-AABCD2B2F29A}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcserver\\protos\\vehicle.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63953581-032E-00ED-E703-A236E8823EB1}|GrpcServer\\GrpcServer.csproj|c:\\users\\ahmed ragab\\source\\repos\\grpc\\grpcserver\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63953581-032E-00ED-E703-A236E8823EB1}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vehicle.proto",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ragab\\source\\repos\\Grpc\\GrpcServer\\Protos\\vehicle.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\vehicle.proto",
+              "ToolTip": "C:\\Users\\Ahmed Ragab\\source\\repos\\Grpc\\GrpcServer\\Protos\\vehicle.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\vehicle.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-07-04T10:57:45.893Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -42,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GreeterService.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ragab\\source\\repos\\Grpc\\GrpcServer\\Services\\GreeterService.cs",
               "RelativeDocumentMoniker": "GrpcServer\\Services\\GreeterService.cs",
               "ToolTip": "C:\\Users\\Ahmed Ragab\\source\\repos\\Grpc\\GrpcServer\\Services\\GreeterService.cs",
               "RelativeToolTip": "GrpcServer\\Services\\GreeterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-04T07:03:20.633Z",
               "EditorCaption": ""
